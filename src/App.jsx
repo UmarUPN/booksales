@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router";
 
-import Navbar from "./components/navbar.jsx";
-import Footer from "./components/Footer.jsx";
+import Header from "./components/shared/Header.jsx";
+import Footer from "./components/shared/Footer.jsx";
 import Home from "./pages/Home.jsx";
 import Book from "./pages/Book.jsx";
 import Team from "./pages/Team.jsx";
@@ -10,9 +10,9 @@ import Contact from "./pages/Contact.jsx";
 function App() {
   return (
     <BrowserRouter>
-      <Navbar />
+      <Header />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route index element={<Home />} />
           <Route path="/team" element={<Team />} />
           <Route path="/book" element={<Book />} />
           <Route path="/contact" element={<Contact />} />

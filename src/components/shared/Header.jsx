@@ -1,4 +1,4 @@
-import "../assets/styles/headers.css";
+import "./styles/Header.css";
 
 import { Link, NavLink } from 'react-router';
 
