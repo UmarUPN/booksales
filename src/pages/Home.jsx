@@ -1,4 +1,5 @@
-import ProductList from "../components/shared/ProductList";
+import ProductList from "../components/ProductList";
+import BookManager from "../components/BookManager"
 import "./styles/Home.css";
 
 import { Link, NavLink } from 'react-router';
@@ -7,7 +8,7 @@ export default function Home() {
     return (
         <>
             <HeroSection />
-            <ProductList />
+            <BookManager />
         </>
     )
 }

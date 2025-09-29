@@ -1,4 +1,5 @@
-import ProductList from "../components/shared/ProductList";
+// import ProductList from "../components/ProductList";
+import BookManager from "../components/BookManager.jsx";
 import "./styles/Book.css";
 
 export default function Book() {
@@ -6,8 +7,9 @@ export default function Book() {
         <>
             <BannerSection />
             <FeaturedAuthorsSection />
-            <FeaturetteSection />
-            <ProductList />
+            {/* <FeaturetteSection /> */}
+            {/* <ProductList /> */}
+            <BookManager />
         </>
     )
 }
@@ -141,9 +143,9 @@ function FeaturedAuthorsSection() {
                     <p>
                     A Nobel Prize-winning author who brought magical realism to life through works like “One Hundred Years of Solitude” and “Love in the Time of Cholera”
                     </p>
-                    <p>
+                    {/* <p>
                     <a className="btn btn-warning" href="#">View details &raquo;</a>
-                    </p>
+                    </p> */}
                 </div>
                 {/* <!-- /.col-lg-4 --> */}
                 <div className="col-lg-4">
@@ -167,9 +169,9 @@ function FeaturedAuthorsSection() {
                     <p>
                     A prolific Indonesian writer with dozens of best-selling novels that explore themes of family, love, and life philosophy
                     </p>
-                    <p>
+                    {/* <p>
                     <a className="btn btn-warning" href="#">View details &raquo;</a>
-                    </p>
+                    </p> */}
                 </div>
                 {/* <!-- /.col-lg-4 --> */}
                 <div className="col-lg-4">
@@ -193,9 +195,9 @@ function FeaturedAuthorsSection() {
                     <p>
                     A global historian and author who reshaped our understanding of humanity through books like “Sapiens,” “Homo Deus,” and “21 Lessons for the 21st Century”
                     </p>
-                    <p>
+                    {/* <p>
                     <a className="btn btn-warning" href="#">View details &raquo;</a>
-                    </p>
+                    </p> */}
                 </div>
             {/* <!-- /.col-lg-4 --> */}
             </div>
